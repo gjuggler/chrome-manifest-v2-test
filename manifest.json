@@ -1,0 +1,12 @@
+{
+  "name": "ManifestV2Test",
+  "version": "0.1",
+  "manifest_version":2,
+  "description": "Testing iframe workaround with manifest_version=2.",
+  "background": {
+    "page": "bg.html"
+  },
+  "web_accessible_resources": [
+    "iframe-messenger.js"
+  ]
+}
